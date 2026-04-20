@@ -348,7 +348,7 @@
     </div>
   
 <script>window.ZAPPY_WEBSITE_ID = "4fc9303b-93dc-4d10-a8d8-bdcf3ee0d50b";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://api.zappy5.com" : "https://api.zappy5.com");</script>
-  <nav class="navbar">  <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>    </svg>    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>    </svg>  </button>  <button class="phone-header-btn" data-phone="+1-800-000-0000" aria-label="Call">    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>    </svg>  </button>  <div class="nav-container">    <div class="nav-brand">      <a href="/" class="logo-link">        <img src="/assets/umi-sushi-food-beverage-logo.webp" alt="Umi Sushi" class="logo">      </a>    </div>    <ul class="nav-menu" id="navMenu">
+  <nav class="navbar">  <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>    </svg>    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>    </svg>  </button>  <button class="phone-header-btn" data-phone="0534256291" aria-label="Call">    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>    </svg>  </button>  <div class="nav-container">    <div class="nav-brand">      <a href="/" class="logo-link">        <img src="/assets/umi-sushi-food-beverage-logo-1776679882790-ivv4mv.webp?v=1776679883587-p5q13z" alt="Umi Sushi" class="logo">      </a>    </div>    <ul class="nav-menu" id="navMenu">
 
     <li class="menu-item-has-children zappy-products-dropdown">
       <a href="/products">
@@ -762,7 +762,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '0534256291';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -849,7 +849,7 @@
         <div class="ccd-card-body">
           <h3 class="ccd-card-title">Телефон</h3>
           <p class="ccd-card-text">Звоните нам напрямую — мы ответим быстро.</p>
-          <a href="tel:[business_phone]" class="ccd-contact-link">[business_phone]</a>
+          <a href="tel:0534256291" class="ccd-contact-link">0534256291</a>
           <p class="ccd-response-note"><i class="fa-regular fa-clock" aria-hidden="true"></i> Пн–Вс: 11:00 – 23:00</p>
         </div>
       </article>
@@ -881,10 +881,9 @@
         <div class="ccd-card-body">
           <h3 class="ccd-card-title">Доставка и самовывоз</h3>
           <p class="ccd-card-text">Доставляем суши по Бат-Яму и Холону. Также доступен самовывоз из нашего ресторана.</p>
-          <address class="ccd-address">[business_address]</address>
-          <a href="https://maps.google.com/?q=[business_address]" target="_blank" rel="noopener noreferrer" class="ccd-map-link">
-            <i class="fa-solid fa-map-location-dot" aria-hidden="true"></i> Открыть на карте
-          </a>
+          <address class="ccd-address">זבוטיסקי 18, בת ים</address>
+          <a href="https://maps.google.com/?q=זבוטיסקי 18, בת ים" target="_blank" rel="noopener noreferrer" class="ccd-map-link" style="display:flex;align-items:flex-start;gap:inherit">
+            <i class="fa-solid fa-map-location-dot" aria-hidden="true"></i>זבוטיסקי 18, בת ים</a>
         </div>
       </article>
 
@@ -972,13 +971,13 @@
           <span class="contact-location-icon" aria-hidden="true">
             <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
           </span>
-          <span>[business_address]</span>
+          <span>זבוטיסקי 18, בת ים</span>
         </li>
         <li>
           <span class="contact-location-icon" aria-hidden="true">
             <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
           </span>
-          <a href="tel:[business_phone]">[business_phone]</a>
+          <a href="tel:0534256291">0534256291</a>
         </li>
         <li>
           <span class="contact-location-icon" aria-hidden="true">
@@ -988,7 +987,7 @@
         </li>
       </ul>
 
-      <a href="https://maps.google.com/?q=[business_address]" target="_blank" rel="noopener noreferrer" class="contact-location-map-btn">
+      <a href="https://maps.google.com/?q=זבוטיסקי 18, בת ים" target="_blank" rel="noopener noreferrer" class="contact-location-map-btn">
         <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
         Открыть на карте
       </a>
@@ -1016,7 +1015,7 @@
 </section>
   </main>
   
-  <footer class="site-footer"><div class="footer-container"><div class="footer-top"><div class="footer-col footer-col--brand"><div class="footer-logo-wrap"><img src="/assets/umi-sushi-food-beverage-logo.webp" alt="Umi Sushi" class="logo"></div><p class="footer-tagline">Изысканная японская кухня,<br>доставленная к вашему столу.</p><div class="footer-social"><a href="[facebook_handle]" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a><a href="[instagram_handle]" aria-label="Instagram"><i class="fab fa-instagram"></i></a><a href="[whatsapp_handle]" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a></div></div><div class="footer-col footer-col--nav"><h4 class="footer-heading">Навигация</h4><ul class="footer-links"><li><a href="/ordering-payment">Заказ и оплата</a></li><li><a href="/about">О нас</a></li><li><a href="/contact">Контакты</a></li></ul></div><div class="footer-col footer-col--contact"><h4 class="footer-heading">Свяжитесь с нами</h4><ul class="footer-contact"><li><span class="contact-icon"><i class="fas fa-envelope"></i></span><span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span></li><li><span class="contact-icon"><i class="fas fa-phone"></i></span><span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span></li><li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span><span class="contact-text">[business_address]</span></a></li></ul></div><div class="footer-col footer-col--hours"><h4 class="footer-heading">Часы работы</h4><ul class="footer-hours"><li><a href="/"><span>Пн — Пт</span><span>11:00 — 22:00</span></a></li><li><a href="/"><span>Сб — Вс</span><span>12:00 — 23:00</span></a></li></ul><div class="footer-badge"><i class="fas fa-credit-card"></i><span>Карта и наличные</span></div></div></div><div class="footer-divider"></div><div class="footer-bottom"><p class="footer-copyright">© 2026 Umi Sushi. Все права защищены.</p><div class="footer-legal"><a href="/privacy">Политика конфиденциальности</a><a href="/terms">Условия использования</a><a href="/accessibility">Доступность</a><a href="https://zappy5.com" target="_blank" class="zappy-attribution">Generated by Zappy</a></div></div></div></footer>
+  <footer class="site-footer"><div class="footer-container"><div class="footer-top"><div class="footer-col footer-col--brand"><div class="footer-logo-wrap"><img src="/assets/umi-sushi-food-beverage-logo.webp" alt="Umi Sushi" class="logo"></div><p class="footer-tagline">Изысканная японская кухня,<br>доставленная к вашему столу.</p><div class="footer-social"><a href="#" aria-label="Facebook" style="display:none !important;"><i class="fab fa-facebook-f"></i></a><a href="#" aria-label="Instagram" style="display:none !important;"><i class="fab fa-instagram"></i></a><a href="#" aria-label="WhatsApp" style="display:none !important;"><i class="fab fa-whatsapp"></i></a></div></div><div class="footer-col footer-col--nav"><h4 class="footer-heading">Навигация</h4><ul class="footer-links"><li><a href="/ordering-payment">Заказ и оплата</a></li><li><a href="/about">О нас</a></li><li><a href="/contact">Контакты</a></li></ul></div><div class="footer-col footer-col--contact"><h4 class="footer-heading">Свяжитесь с нами</h4><ul class="footer-contact"><li><span class="contact-icon"><i class="fas fa-envelope"></i></span><span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span></li><li><span class="contact-icon"><i class="fas fa-phone"></i></span><span class="contact-text"><a href="tel:0534256291">0534256291</a></span></li><li><a href="/" style="display:flex;align-items:flex-start;gap:inherit"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span><span class="contact-text">זבוטיסקי 18, בת ים</span></a></li></ul></div><div class="footer-col footer-col--hours"><h4 class="footer-heading">Часы работы</h4><ul class="footer-hours"><li><a href="/"><span>Пн — Пт</span><span>11:00 — 22:00</span></a></li><li><a href="/"><span>Сб — Вс</span><span>12:00 — 23:00</span></a></li></ul><div class="footer-badge"><i class="fas fa-credit-card"></i><span>Карта и наличные</span></div></div></div><div class="footer-divider"></div><div class="footer-bottom"><p class="footer-copyright">© 2026 Umi Sushi. Все права защищены.</p><div class="footer-legal"><a href="/privacy">Политика конфиденциальности</a><a href="/terms">Условия использования</a><a href="/accessibility">Доступность</a><a href="https://zappy5.com" target="_blank" class="zappy-attribution">Generated by Zappy</a></div></div></div></footer>
   
   <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
