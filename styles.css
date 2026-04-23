@@ -11060,6 +11060,47 @@ body.accessibility-widget-visible ._access-menu {
 }
 /* /Zappy custom logo size */
 
+/* Batch: Тёмно-морской фон с едва заметной подсветкой на всех страницах */
+/* Deep dark sea background with subtle light glow — applied site-wide */
+body {
+  background-color: #07141E !important;
+  background-image:
+    radial-gradient(ellipse 80% 40% at 50% 0%, rgba(30, 100, 160, 0.12) 0%, transparent 70%),
+    radial-gradient(ellipse 60% 30% at 20% 60%, rgba(15, 70, 120, 0.08) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 25% at 80% 80%, rgba(10, 60, 110, 0.07) 0%, transparent 60%)
+    !important;
+  background-attachment: fixed !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+:root {
+  --bg-light: #0D1E2B;
+  --bg-dark: #07141E;
+  --background: #07141E;
+  --surface: #122130;
+  --text-dark: #E8EFF4;
+  --text-muted: #7A9BB0;
+  --border-light: #1E3A50;
+  --border-dark: #0F2A3C;
+}
+
+/* Light sections get the same deep ocean tone */
+.home-features-section,
+.home-reviews-section,
+.home-cta-section {
+  background-color: #0D1E2B !important;
+  background-image:
+    radial-gradient(ellipse 70% 50% at 50% 50%, rgba(30, 90, 150, 0.08) 0%, transparent 70%)
+    !important;
+}
+
+/* Cards and surfaces */
+.home-features-card,
+.home-reviews-card {
+  background-color: #122130 !important;
+  border-color: #1E3A50 !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
