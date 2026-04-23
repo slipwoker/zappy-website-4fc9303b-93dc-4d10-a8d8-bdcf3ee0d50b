@@ -11019,6 +11019,38 @@ body.accessibility-widget-visible ._access-menu {
     display: none !important;
   }
 }
+
+.home-hero-section .home-hero-btn-primary {
+  font-size: 30px !important;
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+  padding-left: 72px !important;
+  padding-right: 72px !important;
+}
+
+.home-hero-section .home-hero-btn-secondary {
+  font-size: 30px !important;
+  padding-top: 28px !important;
+  padding-bottom: 28px !important;
+  padding-left: 64px !important;
+  padding-right: 64px !important;
+}
+
+.home-hero-section .home-hero-btn-primary {
+  font-size: 19.5px !important;
+  padding-top: 19.5px !important;
+  padding-bottom: 19.5px !important;
+  padding-left: 46.8px !important;
+  padding-right: 46.8px !important;
+}
+
+.home-hero-section .home-hero-btn-secondary {
+  font-size: 19.5px !important;
+  padding-top: 18.2px !important;
+  padding-bottom: 18.2px !important;
+  padding-left: 41.6px !important;
+  padding-right: 41.6px !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
